@@ -2,13 +2,9 @@ import random
 
 count = 1
 
- 
-
 print('< 100가지의 계산을 해볼까요?')
 
 print('  계산의 정답을 입력해 보세요 >')
-
- 
 
 while True :
 
@@ -19,10 +15,6 @@ while True :
     print()
 
     print(count,'.',r,'x',s)
-
- 
-
-       
 
     number = int(input('= '))
 
@@ -104,10 +96,7 @@ while True :
                     window.destroy()
                     # 프로그램 종료
                
-                
-
-
-
+               
             #메인코드
             window = Tk() 
             window.geometry("300x400") 
@@ -130,37 +119,20 @@ while True :
                 xPos = 0
                 yPos += 100
 
-
-
             button1 = Button(window, text = "확인", command = func)
             button1.pack(side = BOTTOM, ipadx = 210)
 
             button2 = Button(window, text = "새가 있는 칸을 모두 클릭하세요.\n (캡차는 봇이나 자동화된 해킹으로부터 \n 웹사이트를 보호하기 위해 만들어진 기술입니다.) ")
             button2.pack(side = TOP, ipadx = 210)
 
-
-
-
             window.mainloop() 
 
-
-
- 
 
     if count == 101:
 
         break
 
-    
-
 print()
 
 print('게임이 종료되었습니다')
 
- 
-
- 
-
-# **연결할 때 그림찾기 나온 후 정답 나오도록 부탁드려요~
-
-#print(r,'x',s,'=',r*s)
